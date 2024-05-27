@@ -8,7 +8,7 @@ using EntityLayer.Concrete;
 
 namespace DataAccessLayer.Concrete
 {
-    internal class Context : DbContext
+    public class Context : DbContext
     {
         public DbSet<About> Abouts { get; set; }
         public DbSet<Admin> Admins { get; set; }
