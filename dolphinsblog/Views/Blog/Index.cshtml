@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+
+@await Html.PartialAsync("~/Views/Blog/FeaturedPost.cshtml")
+
+@await Html.PartialAsync("~/Views/Blog/BlogList.cshtml")
+
+@await Html.PartialAsync("~/Views/Blog/OtherFeaturedPost.cshtml")
+
+@await Html.PartialAsync("~/Views/Blog/MailSubscribe.cshtml")
+
+@await Html.PartialAsync("~/Views/About/Footer.cshtml")

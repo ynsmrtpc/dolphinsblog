@@ -9,6 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="miniblog\**" />
+    <Content Remove="miniblog\**" />
+    <EmbeddedResource Remove="miniblog\**" />
+    <None Remove="miniblog\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="App.config" />
   </ItemGroup>
 
